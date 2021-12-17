@@ -1,0 +1,86 @@
+In [3]: beans = 9.45
+
+In [4]: rice = 5.67
+
+In [5]: yam = 3.20
+
+In [6]: meat = 7.47
+
+
+In [8]: fish = 20.23
+
+In [9]: print(beans + rice + yam + meat + fish)
+46.019999999999996
+
+In [10]: print(beans + rice + yam + meat + fish*5)
+126.94
+
+
+In [13]: phrase = 'Blood oxygenation level dependant functional magnetic resource imaging'
+
+In [14]: print(len(phrase))
+70
+
+In [15]: snack = 'biscuit'
+
+In [16]: favorite_snack = 'biscuit '
+
+In [17]: print(favorite_snack * 100)
+biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit biscuit
+
+
+In [6]: txt = "hoilday seasons are great and I look forward to celebrating christmas break."
+
+In [7]: print(txt)
+hoilday seasons are great and I look forward to celebrating christmas break.
+
+In [12]: txt = "hoilday seasons are great and I look forward to celebrating christmas break."
+
+In [13]: y = txt.find("celebrating")
+
+In [14]: print(y)
+48
+
+In [15]: z = txt.index("celebrating")
+
+In [16]: print(z)
+48
+
+In [17]: z = txt.index("forward")
+
+In [18]: print(z)
+37
+
+In [20]: z = txt.islower()
+
+In [21]: print(z)
+False
+
+In [22]: z = txt.capitalize()
+
+In [23]: print(z)
+Hoilday seasons are great and i look forward to celebrating christmas break.
+
+In [24]: help("holiday seasons are great and i look forward to celebrating christmas break.".find)
+find(...) method of builtins.str instance
+    S.find(sub[, start[, end]]) -> int
+
+    Return the lowest index in S where substring sub is found,
+    such that sub is contained within S[start:end].  Optional
+    arguments start and end are interpreted as in slice notation.
+
+    Return -1 on failure.
+(END)
+
+In [25]: shopping_list = {"beans":9.45, "rice":5.67, "yam":3.20, "meat":7.47, "fish":20.23}
+
+In [26]: print(shopping_list)
+{'beans': 9.45, 'rice': 5.67, 'yam': 3.2, 'meat': 7.47, 'fish': 20.23}
+
+In [29]:  text = "hoilday seasons are great and I look forward to celebrating with my family,I am looking forward to a great time but i need a  christmas break."
+
+
+
+
+
+
